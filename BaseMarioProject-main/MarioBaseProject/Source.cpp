@@ -19,7 +19,11 @@ void CloseSDL();
 int main(int argc, char* args[])
 {
 	//check if sdl was setup correctly
-	if(InitSDL)
+	if (InitSDL())
+	{
+		SDL_Delay(5000);
+	}
+	CloseSDL();
 	return 0;
 }
 
