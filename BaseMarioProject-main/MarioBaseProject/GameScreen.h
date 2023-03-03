@@ -1,13 +1,13 @@
 #pragma once
-#ifndef _GAMESCREEN.H
-#define _GAMESCREEN.H
+#ifndef _GAMESCREEN_H
+#define _GAMESCREEN_H
 
 #include <SDL.h>
 
 class GameScreen
 {
 protected:
-	SDL_Renderer* renderer;
+	SDL_Renderer* m_renderer;
 
 public:
 	GameScreen(SDL_Renderer* renderer);
@@ -17,4 +17,4 @@ public:
 	virtual void Update(float deltaTime, SDL_Event e);
 };
 
-#endif //_GAMESCREEN.H
+#endif //_GAMESCREEN_H

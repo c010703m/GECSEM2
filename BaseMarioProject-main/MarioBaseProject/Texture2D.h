@@ -1,6 +1,6 @@
 #pragma once
-#ifndef _TEXTURED2D_H
-#define _TEXTURED2D_H
+#ifndef _TEXTURE2D_H
+#define _TEXTURE2D_H
 
 #include<SDL.h>
 #include <string>
@@ -27,4 +27,4 @@ private:
 	int m_height;
 };
 
-#endif //_TEXTURED2D_H
+#endif //_TEXTURE2D_H
