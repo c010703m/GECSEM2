@@ -18,7 +18,7 @@ void GameScreenLevel1::Render()
 	m_background_texture->Render(Vector2D(), SDL_FLIP_NONE);
 }
 
-void Update(float deltaTime, SDL_Event e)
+void GameScreenLevel1::Update(float deltaTime, SDL_Event e)
 {
 
 }
